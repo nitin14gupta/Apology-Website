@@ -81,3 +81,18 @@ button:hover {
     }
 }
 
+/* Existing CSS rules */
+
+.falling-heart {
+    position: fixed;
+    color: red;
+    animation: fall 3s ease-in-out infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+
